@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #684a0aa1;
     color: #fff;
     padding: 10px 0;
     position: sticky;
@@ -23,7 +23,8 @@ header nav {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    font-size: 20px;
+    font-size: 22px;
+    transform: translate(-50px,-30px);
 }
 
 header nav img {
@@ -31,16 +32,16 @@ header nav img {
     width: auto;
 }
 header nav h1{
-    transform: translate(-310px,90px);
+    transform: translate(-220px,100px);
 }
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #fff; 
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
