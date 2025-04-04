@@ -1,0 +1,24 @@
+<section class="Enquiry">
+    <div class="container">
+        <h2>Enquire with Us for Hotel Booking</h2>
+        <p>Fill in your details below, and we'll get back to you with availability and prices.</p>
+        <form action="/submit-enquiry" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="checkin">Check-in Date</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Any specific requests or questions?" required></textarea>
+
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </div>
+</section>
